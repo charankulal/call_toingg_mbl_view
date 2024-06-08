@@ -1,4 +1,5 @@
 "use client";
+import Features from "@/components/Features";
 import Header from "@/components/Header";
 import Hero from "@/components/Hero";
 import TopContent from "@/components/TopContent";
@@ -10,6 +11,7 @@ export default function Home() {
       <TopContent />
       <Header />
       <Hero/>
+      <Features/>
     </main>
   );
 }
