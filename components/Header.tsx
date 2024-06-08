@@ -17,7 +17,7 @@ const Header: React.FC = () => {
           {/* New flex container for brand name and navbar */}
           <div className="text-lg font-bold mr-6">Toingg</div>{" "}
           {/* Brand name */}
-          <nav className="hidden md:flex space-x-4 pt-6 bg-white shadow-md fixed  z-10 ml-96 mt-5 px-5 rounded-lg   h-[60px]">
+          <nav className="hidden md:flex space-x-4 pt-6 bg-white shadow-md    ml-96 mt-5 px-5 rounded-lg   h-[60px]">
             {" "}
             {/* Navbar visible on desktop (hidden on mobile) */}
             <Link
