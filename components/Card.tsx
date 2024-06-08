@@ -9,7 +9,7 @@ interface CardProps {
 
 const Card = ({ title, description, imageUrl }: CardProps) => {
   return (
-    <div className="bg-white rounded-lg overflow-hidden hover:shadow-2xl shadow-black transition-shadow duration-300  flex flex-col justify-center items-center">
+    <div className="bg-white rounded-lg overflow-hidden hover:shadow-2xl shadow-black transition-shadow duration-300  flex flex-col justify-center items-center m-4">
       <div className="relative h-48 w-48 flex justify-center items-center">
         <Image src={imageUrl} alt={title} width={100} height={100} />
       </div>
